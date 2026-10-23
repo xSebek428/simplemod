@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "simplehud",
+  "version": "${version}",
+  "name": "Simple HUD",
+  "description": "Wyświetla FPS, koordynaty i wytrzymałość zbroi w lewym górnym rogu ekranu.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.simplehud.SimpleHudClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
